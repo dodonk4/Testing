@@ -1,0 +1,18 @@
+<form action="/login" method="post">
+        <p>Registrar nuevo usuario</p>
+        <input type="text" placeholder="Username" name="nombre">
+        <input type="password" placeholder="Password" name="contraseña">
+        <input type="text" placeholder="Email" name="email">
+        <input type="number" placeholder="Cellphone" name="telefono">
+        <input type="text" placeholder="Adress" name="direccion">
+        <input type="number" placeholder="Age" name="edad">
+        <input type="text" placeholder="Photo" name="foto">
+        {{!-- <input type="text" placeholder="Secret Code" name="codigoSecreto"> --}}
+        <input hidden type="number" value="0" name="cantidad">
+        <input hidden type="number" value="0" name="mayoriaDeEdad">
+        <input type="submit">
+</form>
+<br>
+<form action="/login" method="GET">
+    <input type="submit" value="Iniciar Sesión">
+</form>
